@@ -5,4 +5,4 @@ const port = process.env.PORT || 3000;
 
 server.listen(port);
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '../public'));
